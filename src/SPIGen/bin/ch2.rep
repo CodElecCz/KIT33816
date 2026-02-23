@@ -1,0 +1,25 @@
+DeviceName = MC33816
+CRC32 hex
+4BC4EF9A
+CRC32 bin
+0100101111000100
+1110111110011010
+
+The label act5_start is at code line: 23
+The label act6_start is at code line: 25
+The label dcdcoff is at code line: 10
+The label dcdcon is at code line: 7
+The label eoact1 is at code line: 40
+The label hold1 is at code line: 31
+The label hold_off1 is at code line: 38
+The label hold_on1 is at code line: 36
+The label idle0 is at code line: 13
+The label idle1 is at code line: 20
+The label init0 is at code line: 0
+The label init1 is at code line: 16
+The label peak1 is at code line: 27
+
+Code width Hex
+002a
+Code width Dec
+42

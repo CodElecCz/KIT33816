@@ -1,0 +1,20 @@
+11/10/2015 5:24:41 PM : Asic Tracer 2.0.0.0
+11/10/2015 5:24:42 PM : Microcode metadata read from c:\users\b16868\desktop\home_driver\psc\1-mc33816\microcodes\ide microcode\on the web\an4954sw\an_4954_diag_rev1_0\source\an_diag_ch1.trace.dat
+11/10/2015 5:24:42 PM : Device under test is mc33816
+11/10/2015 5:24:42 PM : Saturn tracer board detected
+11/10/2015 5:24:42 PM : HW version 1.0
+11/10/2015 5:24:42 PM : Reading data from port 
+11/10/2015 5:24:42 PM : Press 'q' to abort operation at any time
+11/10/2015 5:24:43 PM : Trace Start
+11/10/2015 5:24:43 PM : FW version 2.0
+11/10/2015 5:24:49 PM : First Data received
+11/10/2015 5:24:53 PM : 
+11/10/2015 5:24:53 PM : 
+11/10/2015 5:24:53 PM : Trace Stop
+11/10/2015 5:24:53 PM : Acquisition Complete
+11/10/2015 5:24:53 PM : Decoding content of file c:\users\b16868\desktop\home_driver\psc\1-mc33816\microcodes\ide microcode\on the web\an4954sw\an_4954_diag_rev1_0\tracer\stream.dat
+11/10/2015 5:24:53 PM : Decoding stream recorded from Saturn 1.0 tracer board
+11/10/2015 5:24:53 PM : Tracer board FW version 2.0
+11/10/2015 5:24:53 PM : Clock cycles acquired in the trace operation: 11631
+11/10/2015 5:24:53 PM : Decoding operation stopped after 2049 steps:
+11/10/2015 5:24:53 PM : Unexpected Code : code A is not legal for instruction at line 91

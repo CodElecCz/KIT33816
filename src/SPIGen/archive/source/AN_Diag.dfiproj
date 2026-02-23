@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MC33816StudioProject>
+	<ProjectType>MC33816</ProjectType>
+	<Version>1.00</Version>
+	<ProjectName>AN_Diag</ProjectName>
+	<ProjectDir>AN_Diag</ProjectDir>
+	<Platforms>
+		<Platform>
+			<Name>MC33816</Name>
+		</Platform>
+	</Platforms>
+	<Configurations>
+		<Configuration>
+			<Name>Release</Name>
+			<OutputDirectory>bin</OutputDirectory>
+			<RegOutputDirectory>Registers</RegOutputDirectory>
+			<IntermediateDirectory>bin</IntermediateDirectory>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Channel1SourceFile>AN_Diag_ch1.dfi</Channel1SourceFile>
+		<Channel2SourceFile>AN_Diag_ch2.dfi</Channel2SourceFile>
+	</Files>
+</MC33816StudioProject>

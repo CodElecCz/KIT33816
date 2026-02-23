@@ -1,0 +1,108 @@
+"SPIGen Configuration File (Version 6.x.x)","Verification Line"
+"[PartName]","MC33816"
+"[Enable33742]",0
+"[Enable33902]",0
+"[Enable33905]",0
+"[Enable33909]",0
+"[Enable33912]",0
+"[SPIType]",2
+"[SPIBaudRate]",0
+"[SPIWordLength]","32"
+"[HardCode3BC]",0
+"[HardCode378]",0
+"[HardCode278]",0
+"[SerialMode]",1
+"[CSpin]","2"
+"[DIpin]","3"
+"[DOpin]","12"
+"[CLKpin]","4"
+"[BinaryMode]",#TRUE#
+"[CSpositive]",#FALSE#
+"[DIpositive]",#TRUE#
+"[DOpositive]",#TRUE#
+"[MSBFirst]",#TRUE#
+"[Data0Enable]",0
+"[Data0Name]","DRVEN"
+"[Data0Assignment]",""
+"[Data1Enable]",0
+"[Data1Name]","RESETB"
+"[Data1Assignment]",""
+"[Data2Enable]",0
+"[Data2Name]","START1"
+"[Data2Assignment]",""
+"[Data3Enable]",0
+"[Data3Name]","START2"
+"[Data3Assignment]",""
+"[Data4Enable]",0
+"[Data4Name]","START3"
+"[Data4Assignment]",""
+"[Control0Enable]",0
+"[Control0Name]","START4"
+"[Control0Assignment]",""
+"[Control1Enable]",0
+"[Control1Name]","START5"
+"[Control1Assignment]",""
+"[Control2Enable]",0
+"[Control2Name]","START6"
+"[Control2Assignment]",""
+"[Control3Enable]",0
+"[Control3Name]","Not Used"
+"[Control3Assignment]",""
+"[EnableLog]",1
+"[LogOff]",#FALSE#
+"[LogForever]",#FALSE#
+"[LogFixedNumber]",#TRUE#
+"[MessageLimit]","5"
+"[ApplyNow]","This applies the Config Form changes above"
+"[BatchItem]","1 Start1"
+"[BatchItem]","1 * Set HI: 2  (START1)"
+"[BatchItem]","1 * Set LO: 2  (START1)"
+"[BatchItem]","1 * Wait 100 ms"
+"[BatchItem]","2 Start1-4"
+"[BatchItem]","2 * Set HI: 2  (START1)"
+"[BatchItem]","2 * Set LO: 2  (START1)"
+"[BatchItem]","2 * Wait 100 ms"
+"[BatchItem]","2 * Set HI: 3  (START2)"
+"[BatchItem]","2 * Set LO: 3  (START2)"
+"[BatchItem]","2 * Wait 100 ms"
+"[BatchItem]","2 * Set HI: 4  (START3)"
+"[BatchItem]","2 * Set LO: 4  (START3)"
+"[BatchItem]","2 * Wait 100 ms"
+"[BatchItem]","2 * Set HI: 5  (START4)"
+"[BatchItem]","2 * Set LO: 5  (START4)"
+"[BatchItem]","2 * Wait 100 ms"
+"[BatchItem]","3 Start1-6"
+"[BatchItem]","3 * Set HI: 2  (START1)"
+"[BatchItem]","3 * Set LO: 2  (START1)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","3 * Set HI: 3  (START2)"
+"[BatchItem]","3 * Set LO: 3  (START2)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","3 * Set HI: 4  (START3)"
+"[BatchItem]","3 * Set LO: 4  (START3)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","3 * Set HI: 5  (START4)"
+"[BatchItem]","3 * Set LO: 5  (START4)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","3 * Set HI: 6  (START5)"
+"[BatchItem]","3 * Set LO: 6  (START5)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","3 * Set HI: 7  (START6)"
+"[BatchItem]","3 * Set LO: 7  (START6)"
+"[BatchItem]","3 * Wait 100 ms"
+"[BatchItem]","4 Start2"
+"[BatchItem]","4 * Set HI: 3  (START2)"
+"[BatchItem]","4 * Set LO: 3  (START2)"
+"[BatchItem]","4 * Wait 100 ms"
+"[BatchItem]","5 Start3"
+"[BatchItem]","5 * Set HI: 4  (START3)"
+"[BatchItem]","5 * Set LO: 4  (START3)"
+"[BatchItem]","5 * Wait 100 ms"
+"[BatchItem]","6 Start4"
+"[BatchItem]","6 * Set HI: 5  (START4)"
+"[BatchItem]","6 * Set LO: 5  (START4)"
+"[BatchItem]","6 * Wait 100 ms"
+"[CommandToSend]","* Set HI: 2  (START1)"
+"[CommandToSend]","* Wait 1 ms"
+"[CommandToSend]","* Set LO: 2  (START1)"
+"[CommandToSend]","* Wait 100 ms"
