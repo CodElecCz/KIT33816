@@ -1,9 +1,9 @@
 DeviceName = MC33816
 CRC32 hex
-5ED00DB9
+501CCFDD
 CRC32 bin
-0101111011010000
-0000110110111001
+0101000000011100
+1100111111011101
 
 The label Boost_waitEN is at code line: 25
 The label CheckStart is at code line: 38

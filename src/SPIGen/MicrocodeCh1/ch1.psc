@@ -196,7 +196,7 @@ idle_diag0:     stoc off sssc;                               * Turn OFF off comp
                 jocr idle_diag_fail0 _sc3v;             * Error detected if Vds of shortcut3 (Boost) is low
                 jocr idle_diag_fail0 _sc1s;             * Error detected if Vsrc of shortcut1 (HS) is low
                 jocr idle_diag_fail0 _sc3s;             * Error detected if Vsrc of shortcut3 (Boost) is low
-                jmpr boost0;                            * Jump to actuation phase if no failure detected in idle phase
+                jmpr peak0;                            * Jump to actuation phase if no failure detected in idle phase
                
                 
 idle_diag_fail0:reqi 1;                                 * Go to software subroutine is fault detected in idle phase HSBat error
@@ -285,7 +285,7 @@ hold_error0: reqi 2;                                      * If Start high is lon
 *                                     END OF INJECTION PHASE                                            *            
 ********************************************************************************************************* 
 
-eoinj0:     stos off off off;
+eoinj0:     stos off on off;
             endiags off off off off;                      * disable auto diag
             bias all off;                                   * Enable all biasing structures, kept ON even during actuation
             stf high BstFlag;                             * turn ON DCDC
