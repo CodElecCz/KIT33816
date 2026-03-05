@@ -1,0 +1,46 @@
+0xBA 41 00 00 Sent              //1_0111010010_00001    0x1D2
+0xAA A8 00 00 Received
+
+0xBA 61 00 00 Sent
+0xAA A8 00 00 Received
+
+0xBA 81 00 00 Sent
+0xAA A8 00 00 Received
+
+Drive config read
+0xB8 A1 00 00               //1_0111000101_00001    0x1C5
+0xAA A8 60 00               14b-vccp ext en 13b-LS7 ovr
+
+Drive status
+0xBA 41 00 00              //1_0111010010_00001    0x1D2
+0xAA A8 00 01
+
+SPI Config
+0xB9 01 00 00              //0x1C8
+0xAA A8 00 1F              //b4-b0 wathdog
+
+Identifier Revision 0x1D5
+0xBA A1 00 00
+0xAA A8 9D 43 
+
+
+------------------------------------------
+0xBA A1 00 00 Sent      //Identifier Revision 0x1D5
+0xAA A8 00 00 Received
+
+//DRAM write addr: 0 data: 0
+0x7F E1 00 04 Sent
+
+0x39 01 00 1F Sent
+0xAA A8 AA A8 Received
+
+0x00 01 Sent
+0xAA A8 Received
+
+0x00 00 Sent
+0xAA A8 Received
+0xAA A8 Received
+
+0xBA A1 00 00 Sent      //Identifier Revision 0x1D5
+0xAA A8 9D 43 Received
+
